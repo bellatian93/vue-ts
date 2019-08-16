@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # test_h52
 
 ## Project setup
@@ -37,3 +38,7 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# vue-ts
+vue cli3 + ts
+>>>>>>> a094f17a953d45f97e41a60dd1a32cfc1d91472b
