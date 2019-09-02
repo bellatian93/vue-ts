@@ -1,7 +1,7 @@
 const routers = [{
-	path: '',
+	path: '/home',
 	name: 'home',
-	component: () => import(/* webpackChunkName: 'index' */ /* webpackPrefetch: true */ '@/views/Home.vue')
+	component: () => import(/* webpackChunkName: 'index' */ /* webpackPrefetch: true */ '@/views/Home.vue'),
 }];
 
 export default routers;

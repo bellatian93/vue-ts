@@ -1,43 +1,24 @@
 <template>
-	<div id="app">
-		<div id="nav">
-			<router-link to="/">Home</router-link>
-		</div>
-		<div class="my-com">
-			<router-link to="/">Home</router-link>
-			|
-			<router-link to="/">Home</router-link>
-			|
-			<router-link to="/">Home</router-link>
-			|
-		</div>
-		<router-view/>
-	</div>
+  <div id="app">
+    <router-view></router-view>
+  </div>
 </template>
 
-<style lang="scss">
-	#app {
-		font-family: 'Avenir', Helvetica, Arial, sans-serif;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-		text-align: center;
-		color: #2c3e50;
-	}
+<script>
 
-	#nav .my-com {
-		padding: 30px;
+export default {
+  name: 'app',
+  components: {
+  }
+}
+</script>
 
-		a {
-			font-weight: bold;
-			color: #2c3e50;
-
-			&.router-link-exact-active {
-				color: #42b983;
-			}
-		}
-	}
-
-	.my-com {
-		margin-top:1rem;
-	}
+<style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 </style>
